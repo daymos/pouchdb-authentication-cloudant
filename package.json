@@ -1,11 +1,11 @@
 {
   "name": "pouchdb-authentication",
   "version": "0.4.2",
-  "description": "PouchDB Authentication",
+  "description": "PouchDB Authentication (Cloudant compatible)",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nolanlawson/pouchdb-authentication.git"
+    "url": "git://github.com/willholley/pouchdb-authentication.git"
   },
   "scripts": {
     "jshint": "jshint -c .jshintrc lib/*.js test/test.js",
@@ -25,7 +25,7 @@
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/nolanlawson/pouchdb-authentication/issues"
+    "url": "https://github.com/willholley/pouchdb-authentication-cloudant/issues"
   },
   "dependencies": {
     "crypto": "0.0.3",
