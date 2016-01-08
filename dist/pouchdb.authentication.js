@@ -43,7 +43,7 @@ exports.signup = utils.toPromise(function (username, password, opts, callback) {
   var hashAndSalt = generatePasswordHash(password)
   var userId = 'org.couchdb.user:' + username;
   var user = {
-    name            : name,
+    name            : username,
     password_sha    : hashAndSalt[0],
     salt            : hashAndSalt[1],
     password_scheme : 'simple',
