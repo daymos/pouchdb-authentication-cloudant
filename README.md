@@ -1,6 +1,8 @@
 PouchDB Authentication
 =====
 
+*This is a fork of [PouchDB-authentication] plugin which is compatible with CouchDB < 1.2 or Cloudant. If you are not using one of these platforms, use [pouchdb-authentication](https://github.com/nolanlawson/pouchdb-authentication) directly. Cloudant is expected to support server-side password hashing in early 2016, at which point this plugin will be deprecated.*
+
 <img alt="PouchDB Authentication logo by nickcolley" title="PouchDB Authentication logo by nickcolley" width="150px" src="https://raw.githubusercontent.com/nolanlawson/pouchdb-authentication/master/docs/logo.png"/>
 
 Easy user authentication for PouchDB/CouchDB.
